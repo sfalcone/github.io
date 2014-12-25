@@ -4,17 +4,26 @@ padding:0;
 margin:0;
 overflow:hidden;
 }
+
 #scene{
 position: fixed;
-width: auto;
-height: 100%;
+width: 600px;
+height: auto;
 bottom:0px;
-}
-#snowman{
-cursor:pointer;
 }
 
 h1 {
-    margin: 50px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 0;
 }
- 
+
+a.btn, .btn {
+	cursor: pointer;
+	margin: auto;
+	position: relative;
+}
+
+a.hover{
+	color: red;
+}
